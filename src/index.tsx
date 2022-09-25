@@ -3,16 +3,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-import Hello from './components/Hello';
-import Name from './components/Name';
-import Message from './components/Message';
-import Parent from './components/ContainerSample';
-import Page from './components/ContextSample';
-import Count from './components/StateSample';
-import Count2 from './components/ReducerSample';
-import Parent2 from './components/Parent';
-import Parent3 from './components/UseCallbackSample';
-import { UseMemoSample } from './components/UseMemoSample';
+// import Hello from './components/Hello';
+// import Name from './components/Name';
+// import Message from './components/Message';
+// import Parent from './components/ContainerSample';
+// import Page from './components/ContextSample';
+// import Count from './components/StateSample';
+// import Count2 from './components/ReducerSample';
+// import Parent2 from './components/Parent';
+// import Parent3 from './components/UseCallbackSample';
+// import { UseMemoSample } from './components/UseMemoSample';
+// import { Clock } from './components/Clock';
+// import { Parent4 } from './components/UseContext';
+// import { ImageUploader } from './components/UseRef';
+// import { Parent5 } from './components/ImperativeHandle';
+import { Input } from './components/CustomHook';
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -27,7 +32,12 @@ ReactDOM.render(
   //   <Count2 initialValue={0} />
   // <Parent2 />,
   // <Parent3 />,
-  <UseMemoSample />,
+  // <UseMemoSample />,
+  // <Clock />,
+  // <Parent4 />,
+  // <ImageUploader />,
+  // <Parent5 />,
+  <Input />,
   // </React.StrictMode>,
   document.getElementById('root')
 );
